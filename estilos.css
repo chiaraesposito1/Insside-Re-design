@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style:normal;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+/*PORTADA*/
+    .portada{
+        height: 80vh;
+
+            h1{
+                color:white;
+                text-align: center;
+                width: 50%;
+                padding: 10px;
+                font-size: 3.5rem;
+                font-weight: 600;
+            }
+            p{
+                padding-bottom: 10px;
+                color:white;
+                width: 70%;
+                font-size: 1.2rem;
+            }
+            a{
+                padding: 8px 30px;
+                border-radius: 20px;
+                text-decoration: none;
+                color:white;
+                font-weight: 600;
+                animation: colorChange 2s infinite ease-in-out;
+            }
+            a:hover{
+                border: 1px solid #31B094;
+                box-shadow: 1px 1px 20px #31B094;
+            }
+            .fa-angle-right{
+                padding-left: 10px;
+                animation: move 2s infinite ease-in-out
+            }
+        }
+        @keyframes move {
+            0%{
+                transform: translate(5px);
+            }
+            50%{
+                transform: translate(0px);
+            }
+            100%{
+                transform: translate(5px);
+            }
+            
+        }
+        
+        @keyframes colorChange{
+            0%{
+                background: linear-gradient(270deg, #47B27B 11%, #31B094 23.68%, #1EAEAA 38.87%, #12ADB8 54.06%, #0FADBD 100%);
+            }
+            100%{
+              
+                background: linear-gradient( 270deg, #0FADBD 9.8%, #12ADB8 38.87%, #1EAEAA 42.06%, #47B27B 100%);
+            }}
+    
+.navbar{
+    background-color: #0c043085;
+    backdrop-filter: blur(10px);
+    border: 0.5px solid rgb(182, 182, 182);
+    height:12vh;
+    margin:20px 40px;
+    border-radius: 50px;
+    margin-bottom: 0px;
+    
+    .navbar-brand{
+        color:white;
+    }
+    .logo{
+        padding: 5px 8px;
+        width:130px;
+        height: 45px;
+    }   
+.nav-link{
+    color:rgb(150, 150, 150);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+}
+    .nav-link:hover{
+        color: white;
+    }
+.active{
+    color: white;
+}
+.signup{
+    background: linear-gradient(200deg, #9618b7, #8714a3,#d42aff);
+    border-radius: 50px;
+    padding: 8px 20px;
+    color:white;
+}
+.signup:hover{
+    background: linear-gradient(200deg, #d42aff,  #9618b7, #8714a3);
+}
+}
+
+/*BODY*/
+body{
+    background: linear-gradient(#080B31, #1D2856, #44225B, #223062, #44225B, #1D2856, #080B31);
+    animation: color 5s infinite ease-in ;
+    animation-timing-function: 10s;
+}
+@keyframes color {
+    0%{
+        background: linear-gradient(#080B31, #1D2856, #44225B, #223062, #1D2856, #2c163b);
+    }
+    50%{
+        background: linear-gradient(#080B31, #44225B, #1D2856, #2c163b );
+    }
+    100%{
+        background: linear-gradient(#080B31, #2c163b,#44225B, #1D2856, );
+    }
+}
+
+/*COMUNES*/
+.text-color{
+    color: #92e0ff;
+}
+/*INFO-CARDS*/
+.card-info{
+    background-color: rgba(54, 18, 112, 0.288);
+    box-shadow: 2px 2px 20px #9d47b283;
+    border: 0.5px solid #9d47b2 ;
+    width:320px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px 10px 0px;
+    color:white;
+    margin:10px;
+    h3{
+        font-size: 4rem;
+        font-weight: 700;
+        padding: 10px;
+        color: white;
+        .text-chico{
+            font-size: 1.2rem;
+        }
+        .icon-cards{
+            margin-left: 10px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+    p{
+        padding:0px 10px;
+        font-size: 1.2rem;
+    }
+}
+/*FLYER*/
+.flyer{
+    .img-clientes{
+        max-width: 200px;
+        aspect-ratio: 4/3;
+        object-fit: contain;
+        padding: 0px 30px;
+    }
+}
+.flyer1{
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+    background-color: #080B31;
+    height: 210vh;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 2px 20px #0facbd7a; 
+    border: 1px solid #0FADBD;
+    h2{
+        color:white;
+        text-align: center;
+        width: 70%;
+        padding: 40px;
+        font-weight: 600;
+    }
+    }
+
+.flyer2{
+    margin: 40px;
+    padding: 40px 10px;
+    background:linear-gradient(270deg, #080B31,#44225B, #7c42a3,#1D2856, #080B31);
+    box-shadow: 2px 2px 20px #0facbd7a; 
+    border: 1px solid #0FADBD;
+    border-radius: 20px;
+    height: 70vh;
+    .text-introduction{
+        padding: 0px 10px;
+        font-weight: 600;
+        color: #92e0ff;
+    }
+    h3{
+        color:white;
+        padding: 5px 10px;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    .text-flyer{
+        color:white;
+        padding: 0px 10px 10px;
+        font-size: 1.05rem;
+    }
+    a{
+        margin:10px;
+        background: linear-gradient(200deg, #9618b7, #8714a3,#d42aff);
+        border-radius: 50px;
+        padding: 8px 20px;
+        color:white;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    a:hover{
+        background: linear-gradient(200deg, #d42aff,  #9618b7, #8714a3);
+    }
+    .img-flyer{
+        width:600px;
+        height: 350px;
+    }
+    .img-flyer2{
+        width:600px;
+        height: 400px;
+    }
+    
+}
+.flyer3{
+        margin: 40px;
+        padding: 40px 10px;
+        background:linear-gradient(270deg, #080B31,#44225B, #7c42a3,#1D2856, #080B31);
+        box-shadow: 2px 2px 20px #0facbd7a; 
+        border: 1px solid #0FADBD;
+        border-radius: 20px;
+        height: 70vh;
+        .text-introduction{
+            padding: 0px 10px;
+            font-weight: 600;
+            color: #92e0ff;
+        }
+        h3{
+            color:white;
+            padding: 5px 10px;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        .text-flyer{
+            color:white;
+            padding: 0px 10px 10px;
+            font-size: 1.05rem;
+        }
+        a{
+            margin:10px;
+            background: linear-gradient(200deg, #9618b7, #8714a3,#d42aff);
+            border-radius: 50px;
+            padding: 8px 20px;
+            color:white;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        a:hover{
+            background: linear-gradient(200deg, #d42aff,  #9618b7, #8714a3);
+        }
+        .img-flyer2{
+            width:600px;
+            height: 360px;
+        }
+        
+    }
+
+/*SERVICIOS*/
+.title{
+    margin-top: 10px;
+    padding: 10px;
+    color:white;
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.cards-services{
+    margin: 0px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+    .card-service{
+        padding: 25px 15px;
+        border-radius: 20px;
+        height: 80vh;
+        width: 380px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .img-servicio{
+        width: 165px;
+        height:165px;
+        padding-bottom: 10px;
+    }
+    .title-servicios{
+        font-size: 1.3rem;
+        padding:8px;
+        font-weight: 600;
+        color:white;
+        .text-color{
+            color: #92e0ff;
+            font-weight: 600;
+        }
+    }
+    .text-servicios{
+        font-size: 0.96rem;
+        padding: 0px 8px 10px 8px;
+        color:white;
+        width:90%;
+    }
+    .btn-servicios{
+        text-decoration: none;
+        background: linear-gradient(270deg, #47B27B 9.03%, #31B094 23.68%, #1EAEAA 38.87%, #12ADB8 54.06%, #0FADBD 100%);
+        color:white;
+        width:50%;
+        padding:10px 30px;
+        border-radius: 50px;
+        margin: 8px;
+        font-weight: 600;
+        text-align: center;
+    } 
+    .btn-servicios:hover{
+        box-shadow: 1px 1px 20px #31B094;
+    }
+
+.color{
+    color:black;
+    filter: blur(30px);
+}
+
+/*Pagos*/
+.title-planes{
+    color:white;
+    padding: 20px;
+    margin:30px;
+    font-size: 2.3rem;
+
+    .text-color{
+        color:#92e0ff;;
+    }
+
+}
+.card-pagos{
+    color:white;
+    height: 95vh;
+    box-shadow: 2px 2px 20px #0facbd7a; 
+    margin: 25px;
+    border-radius: 20px;
+    h3{
+        font-size: 1rem;
+        padding-top: 5px;
+    }
+    .contenido{
+    padding:20px
+    }
+    .save{
+        background-color: #167e7a;
+        padding: 2px 20px;
+        border-radius: 40px;
+        border: 1px solid #92e0ff;
+        font-size: 0.9rem;
+    }
+    .month{
+        font-size: 1rem;
+    }
+    .precio{
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: #9df4fd;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        padding:5px;
+        font-size: 1rem;
+    }
+    .btn-precio{
+        text-decoration: none;
+        background-color:#167e7a;
+        color: white;
+        border: 1px solid #92e0ff;
+        font-weight: 600;
+        border-radius: 20px;
+        padding:10px 50px;
+    }
+    .btn-precio:hover{
+        box-shadow: 1px 1px 20px #31B094;
+    }
+    .fa-check-circle{
+        font-size: 1rem;
+    }
+    
+}
+.link-btn{
+    border: 1px solid #0FADBD;
+}
+
+.color-card{
+    background-color: #080B31;
+    border: 1px solid #0FADBD;
+}
+
+/*CLIENTES*/
+.title-users{
+    color:white;
+    text-align: center;
+    padding: 20px 20px 10px;
+    font-size: 2.5rem;
+}
+.contenedor-clientes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cita{
+    width:100px;
+    height: 100px;
+    padding:  10px 10px 0px;
+}
+.clientes-opinion{
+    background-color: rgba(41, 14, 85, 0.61);
+    box-shadow: 2px 2px 20px #9d47b283;
+    border: 0.5px solid #9d47b2 ;
+    color:white;
+    border-radius: 20px;
+    border: 0.5px solid rgb(182, 182, 182);
+    height: 90vh;
+    width: 500px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+ 
+    .opinion{
+        padding: 0px 40px;
+        text-align: justify;
+        font-size: 1rem;
+    }
+}
+.empresa-cliente{
+    padding-top: 20px;
+    .img-empresa{
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    h4{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+}
+/*FOOTER*/
+.footer{
+    border-radius: 30px;
+    height: 80vh;
+    margin: 40px;
+    padding: 40px 10px;
+    background-color: #0c043085;
+    backdrop-filter: blur(10px);
+    border: 0.5px solid rgb(182, 182, 182);
+
+    .contenido-paises{
+        color:white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .pais{
+            width:240px;
+        }
+    }
+    .logo-footer{
+        width:250px;
+        height: 60px;
+        margin: 20px;
+    }
+    .footer-nav{
+        margin-left: 30px;
+        padding-left: 20px;
+    }
+    ul{
+        width:100px;
+    }
+    .nav-link{
+        list-style: none;
+        color:rgb(150, 150, 150);
+        text-decoration: none;
+        font-weight: 600;
+        padding: 4px;
+    }
+    .nav-link:hover{
+        color: white;
+        border-bottom:1px solid white;
+    }
+    .active{
+        color: white;
+    }
+    .redes{
+        background-color: #080B31;
+        padding:12px;
+        border-radius: 100px;
+        margin-top: 10px;
+        margin:20px;
+        .fa-brands{
+            text-align: center;
+            font-size: 1.5rem;
+            color:white;
+        }
+    }
+  
+}
+
+/*404*/
+main{
+    padding-top:  50px;
+    margin-top: 50px;
+    .title-404{
+        color:white;
+        font-size: 3.5rem;
+        padding:10px;
+    }
+    p{
+        color:white;
+        font-size: 1.5rem;
+        padding:10px;
+    }
+    a{
+        color:white;
+        font-weight: 600;
+        background-color: #31B094;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 20px;
+        animation: colorChange infinite 2s ease-in-out;
+    }
+
+}
