@@ -491,7 +491,7 @@ body{
 /*FOOTER*/
 .footer{
     border-radius: 30px;
-    height: 80vh;
+    height: 70vh;
     margin: 40px;
     padding: 40px 10px;
     background-color: #0c043085;
@@ -513,18 +513,19 @@ body{
         width:250px;
         height: 60px;
         margin: 20px;
+        padding-right: 40px;
     }
     .footer-nav{
-        margin-left: 30px;
-        padding-left: 20px;
+        margin-left: 70px;
+        padding-left: 40px;
     }
-   
     .nav-link{
         list-style: none;
         color:rgb(150, 150, 150);
         text-decoration: none;
         font-weight: 600;
         padding: 4px;
+        font-size: 1.1rem;
     }
     .nav-link:hover{
         color: white;
@@ -534,7 +535,8 @@ body{
         color: white;
     }
     .redes{
-        background-color: #080B31;
+        background-color: #390946;
+        box-shadow: 2px 2px 20px #63107a;
         padding:12px;
         border-radius: 100px;
         margin-top: 10px;
@@ -545,7 +547,6 @@ body{
             color:white;
         }
     }
-  
 }
 
 /*404*/
@@ -573,7 +574,7 @@ main{
 
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 480px){
     .portada{
         height: 80vh;
         width: 100%;
@@ -814,6 +815,10 @@ main{
     }
     
 }
+
+}
+
+@media screen and (max-width: 1200px){
 
 }
 
