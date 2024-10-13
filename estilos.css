@@ -296,7 +296,7 @@ body{
     padding: 10px;
     color:white;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .cards-services{
@@ -324,7 +324,7 @@ body{
         padding-bottom: 10px;
     }
     .title-servicios{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         padding:8px;
         font-weight: 600;
         color:white;
@@ -343,8 +343,8 @@ body{
         text-decoration: none;
         background: linear-gradient(270deg, #47B27B 9.03%, #31B094 23.68%, #1EAEAA 38.87%, #12ADB8 54.06%, #0FADBD 100%);
         color:white;
-        width:50%;
-        padding:10px 30px;
+        width:38%;
+        padding:8px 30px;
         border-radius: 50px;
         margin: 8px;
         font-weight: 600;
@@ -360,16 +360,17 @@ body{
 }
 
 /*Pagos*/
+.section-planes{
+    padding: 5px 20px 20px;
+}
 .title-planes{
     color:white;
-    padding: 20px;
-    margin:30px;
-    font-size: 2.3rem;
-
+    padding: 10px 20px 5px;
+    margin:30px 20px 10px;
+    font-size: 2rem;
     .text-color{
         color:#92e0ff;;
     }
-
 }
 .contenedor-pagos{
     display: flex;
@@ -387,7 +388,7 @@ body{
         padding-top: 5px;
     }
     .contenido{
-    padding:20px
+        padding:20px
     }
     .save{
         background-color: #167e7a;
@@ -400,7 +401,7 @@ body{
         font-size: 1rem;
     }
     .precio{
-        font-size: 3.5rem;
+        font-size: 3.2rem;
         font-weight: 700;
         color: #9df4fd;
     }
@@ -409,7 +410,7 @@ body{
     }
     li{
         padding:5px;
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
     .btn-precio{
         text-decoration: none;
@@ -418,7 +419,7 @@ body{
         border: 1px solid #92e0ff;
         font-weight: 600;
         border-radius: 20px;
-        padding:10px 50px;
+        padding: 8px 50px;
     }
     .btn-precio:hover{
         box-shadow: 1px 1px 20px #31B094;
@@ -439,15 +440,18 @@ body{
 }
 
 /*CLIENTES*/
+.section-users{
+    margin: 50px;
+}
 .title-users{
     color:white;
     text-align: center;
     padding: 20px 20px 10px;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
 }
 .contenedor-clientes{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .cita{
@@ -463,8 +467,8 @@ body{
     border-radius: 20px;
     border: 0.5px solid rgb(182, 182, 182);
     height: 90vh;
-    width: 500px;
-    margin: 20px;
+    width: 400px;
+    margin: 10px;
     backdrop-filter: blur(10px);
  
     .opinion{
@@ -478,14 +482,18 @@ body{
     .img-empresa{
         width: 70px;
         height: 70px;
-        margin-right: 10px;
+    }
+    .contenido-empresa{
+        padding-left: 20px;
     }
     h4{
-        font-size: 1.3rem;
+        text-align: left;
+        font-size: 1.2rem;
         font-weight: 600;
     }
     p{
-        font-size: 0.8rem;
+        text-align: left;
+        font-size: 0.96rem;
     }
 }
 /*FOOTER*/
@@ -574,251 +582,7 @@ main{
 
 }
 
-@media screen and (max-width: 480px){
-    .portada{
-        height: 80vh;
-        width: 100%;
-            h1{
-                width:100%;
-                padding: 10px;
-                font-size: 2rem;
-            }
-            p{
-                padding-bottom: 10px;
-                color:white;
-                width: 100%;
-                font-size: 1rem;
-            }
-            a{
-                font-size: 0.8rem;
-               }
-            }
-    .card-info{
-    width:280px;
-    height: 200px;
-    padding: 10px 20px 0px;
-    margin:10px;
-    h3{
-        font-size: 1rem;
-        padding: 10px;
-        .icon-cards{
-            margin-left: 5px;
-            width: 10px;
-            height: 10px;
-        }
-    }
-    p{
-        padding:0px 10px;
-        font-size: 0.6rem;
-    }
-}
-/*SERVICIOS*/
-.title{
-    margin-top: 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: 1rem;
-}
-.cards-services{
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-}
-    .card-service{
-        padding: 0px;
-        margin: 0px;
-        height: 35vh;
-        width: 400px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .img-servicio{
-        width: 80px;
-        height:80px;
-        padding-bottom: 2px;
-    }
-    .title-servicios{
-        font-size: 1rem;
-        padding-bottom:2px;
-        text-align: center;
-    }
-    .text-servicios{
-        font-size: 0.66rem;
-        padding-bottom: 2px;
-        width:100%;
-        text-align: center;
-    }
-    .btn-servicios{
-        width:30%;
-        padding:2px;
-        font-size: 0.66rem;
-  }
 
-
-
-/*FLYER*/
-.flyer{
-    .img-clientes{
-        max-width: 140px;
-        aspect-ratio: 4/3;
-        object-fit: contain;
-        padding: 0px 30px;
-        
-    }
-}
-.flyer1{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 0px;
-    width: 100%;
-    height: 200vh;
-    h2{
-        width: 100%;
-        padding: 10px;
-        font-size: 1.2rem;
-    }
+@media screen  and (max-width: 470px){
     
 }
-
-.flyer2{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    padding: 0px;
-    height: 50vh;
-    width: 100%;
-
-    .col-textEnd{
-        text-align: center;
-    }
-    .text-introduction{
-        padding: 0px 10px;
-        font-size: 0.6rem;
-    }
-    h3{
-        padding: 0px 10px;
-        font-size: 1rem;
-    }
-    .text-flyer{
-        color:white;
-        padding: 0px 10px 0px;
-        font-size: 0.6rem;
-    }
-    a{
-        margin:0px;
-        padding: 4px 15px;
-        font-size: 0.6rem;
-    }
-    .img-flyer{
-        text-align: center;
-        width:200px;
-        height: 120px;
-    }
-    .img-flyer2{
-        text-align: center;
-        width:200px;
-        height: 120px;
-    }
-    
-}
-.flyer3{
-        margin: 40px;
-        padding: 40px 10px;
-        background:linear-gradient(270deg, #080B31,#44225B, #7c42a3,#1D2856, #080B31);
-        box-shadow: 2px 2px 20px #0facbd7a; 
-        border: 1px solid #0FADBD;
-        border-radius: 20px;
-        height: 70vh;
-        .text-introduction{
-            padding: 0px 10px;
-            font-weight: 600;
-            color: #92e0ff;
-        }
-        h3{
-            color:white;
-            padding: 5px 10px;
-            font-size: 2.5rem;
-            font-weight: 600;
-        }
-        .text-flyer{
-            color:white;
-            padding: 0px 10px 10px;
-            font-size: 1.05rem;
-        }
-        a{
-            margin:10px;
-            background: linear-gradient(200deg, #9618b7, #8714a3,#d42aff);
-            border-radius: 50px;
-            padding: 8px 20px;
-            color:white;
-            font-weight: 600;
-            text-decoration: none;
-        }
-        a:hover{
-            background: linear-gradient(200deg, #d42aff,  #9618b7, #8714a3);
-        }
-        .img-flyer2{
-            width:600px;
-            height: 360px;
-        }
-        
-    }
-/*Pagos*/
-.title-planes{
-    padding: 10px;
-    margin:40px;
-    font-size: 1rem;
-    text-align: center;
-}
-.contenedor-pagos{
-    display: flex;
-    flex-wrap: wrap;
-}
-.card-pagos{
-    height: 60vh;
-    width: 600px;
-    margin: 0px;
-    h3{
-        font-size: 0.6rem;
-        padding-top: 5px;
-    }
-    .contenido{
-    padding:10px
-    }
-    .save{
-        padding: 2px 10px;
-        font-size: 0.6rem;
-    }
-    .month{
-        font-size: 0.6rem;
-    }
-    .precio{
-        font-size: 2.3rem;
-    }
-    li{
-        padding:5px;
-        font-size: 0.8rem;
-    }
-    .btn-precio{
-        padding:6px 30px;
-        font-size: 0.8rem;
-    }
-    .fa-check-circle{
-        font-size: 0.8rem;
-    }
-    
-}
-
-}
-
-@media screen and (max-width: 1200px){
-
-}
-
