@@ -310,6 +310,9 @@ body{
         border: 1px solid #0FADBD;
         border-radius: 20px;
         height: 70vh;
+        .contenido-flyer3{
+            padding: 30px;
+        }
         .text-introduction{
             padding: 0px 10px;
             font-weight: 600;
@@ -338,13 +341,57 @@ body{
         a:hover{
             background: linear-gradient(200deg, #d42aff,  #9618b7, #8714a3);
         }
-        .img-flyer2{
+        .img-flyer3{
             width:600px;
             height: 360px;
         }
         
     }
-
+    .flyer4{
+        margin: 40px;
+        padding: 40px 10px;
+        background:linear-gradient(270deg, #080B31,#44225B, #7c42a3,#1D2856, #080B31);
+        box-shadow: 2px 2px 20px #0facbd7a; 
+        border: 1px solid #0FADBD;
+        border-radius: 20px;
+        height: 70vh;
+        .contenido-flyer4{
+            padding: 30px;
+        }
+        .text-introduction{
+            padding: 0px 10px;
+            font-weight: 600;
+            color: #92e0ff;
+        }
+        h3{
+            color:white;
+            padding: 5px 10px;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+        .text-flyer{
+            color:white;
+            padding: 0px 10px 10px;
+            font-size: 1.05rem;
+        }
+        a{
+            margin:10px;
+            background: linear-gradient(200deg, #9618b7, #8714a3,#d42aff);
+            border-radius: 50px;
+            padding: 8px 20px;
+            color:white;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        a:hover{
+            background: linear-gradient(200deg, #d42aff,  #9618b7, #8714a3);
+        }
+        .img-flyer4{
+            width:600px;
+            height: 360px;
+        }
+        
+    }
 
 .color{
     color:black;
@@ -516,6 +563,8 @@ body{
         padding-right: 40px;
     }
     .footer-nav{
+        display: flex;
+        flex-direction: column;
         margin-left: 70px;
         padding-left: 40px;
     }
@@ -577,8 +626,8 @@ main{
 
 @media screen  and (max-width: 470px){
     .portada{
-        margin-top: 20px;
-        height: 100vh;
+        margin-top: 10px;
+        height: 85vh;
             h1{
                 width: 100%;
                 padding: 10px;
@@ -588,10 +637,10 @@ main{
                 padding-bottom: 5px;
                 color:white;
                 width: 100%;
-                font-size: 0.95rem;
+                font-size: 0.9rem;
             }
             a{
-                font-size: 0.95rem;
+                font-size: 0.9rem;
                 padding: 6px 30px;
             }
         }
@@ -600,7 +649,8 @@ main{
         margin: 10px;
         border-radius: 50px;
         margin-bottom: 0px;
-        width: 0%;
+        display: flex;
+        flex-wrap: nowrap;
         
         .logo{
             padding: 5px;
@@ -608,6 +658,7 @@ main{
             height: 25px;
         }   
     .nav-link{
+        font-size: 0.6rem;
         padding: 5px;
     }
     .signup{
@@ -616,59 +667,66 @@ main{
     }
     
     /*INFO-CARDS*/
+    .cards-info{
     .card-info{
-        width:500px;
-        height: 200px;
-        padding: 5px 5px 0px;
-        margin:10px;
+        width:400px;
+        height: 120px;
+        padding: 10px;
+        margin:5px;
         h3{
-            font-size: 2rem;
+            font-size: 1.5rem;
             padding: 2px;
             .icon-cards{
-                margin-left: 10px;
-                width: 20px;
-                height: 20px;
+                margin-left: 2px;
+                width: 15px;
+                height: 15px;
             }
         }
         p{
-            padding:0px 10px;
-            font-size: 0.95rem;
+            padding:0px;
+            font-size: 0.66rem;
         }
-    }
+    }}
     /*FLYER*/
     .flyer1{
+        margin: 10px;
+        padding: 10px 5px;
+        height: 260vh;
         width: 100%;
-        height: 400vh;
         .title{
             margin-top: 10px;
-            padding: 10px;
+            padding: 5px;
             font-size: 1rem;
         }
     .cards-services{
         margin: 0px;
-    
+
         .card-service{
-            padding: 10px;
-            height: 60vh;
-            width: 380px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0px;
+            height: 42vh;
         
         .img-servicio{
             width: 50px;
             height:50px;
-            padding-bottom: 10px;
+            padding-bottom: 0px;
         }
         .title-servicios{
+            text-align: center;
             font-size: 1rem;
-            padding:4px;
+            padding:0px;
         }
         .text-servicios{
+            text-align: center;
             font-size: 0.6rem;
             padding: 0px 4px;
-            width:100%;
+            width:80%;
         }
         .btn-servicios{
             font-size: 0.6rem;
-            width:100%;
+            width:40%;
             padding:4px 20px;
             margin: 0px;
         } 
@@ -676,12 +734,15 @@ main{
     
     .flyer2{
         margin: 10px;
-        padding: 10px 5px;
-        height: 70vh;
+        padding: 10px;
+        height: 60vh;
     
         .text-introduction{
             padding: 0px 10px;
             font-size: 0.6rem;
+        }
+        .col{
+            text-align: center;
         }
         h3{
             padding: 10px;
@@ -698,7 +759,7 @@ main{
         }
         .flyer{
             .img-clientes{
-                max-width: 100px;
+                max-width: 80px;
                 aspect-ratio: 4/3;
                 object-fit: contain;
                 padding: 0px 10px;
@@ -706,34 +767,86 @@ main{
         } 
     }
     .flyer3{
-            margin: 10px;
-            padding: 10px;
-            height: 70vh;
-            text-align: center;
-            .text-introduction{
-                padding: 0px 10px;
-                font-size: 0.66rem;
-            }
-            h3{
-                padding: 0px 10px;
-                font-size: 1rem;
-            }
-            .text-flyer{
-                color:white;
-                padding: 0px 10px;
-                font-size: 0.66rem;
-            }
-            a{
-                margin:0px;
-                padding: 4px 15px;
-                font-size: 0.66rem;
-            }
-            .img-flyer2{
-                padding-top: 10px;
-                width:130px;
-                height: 80px;
-            }
+        margin: 10px;
+        padding: 10px;
+        height: 60vh;
+        .contenido-flyer3{
+            padding: 0px;
         }
+        .row{
+            display: flex;
+            flex-direction: column;
+        }
+        .text-introduction{
+            padding: 10px 10px 0px;
+            font-size: 0.66rem;
+        }
+        .col{
+            text-align: center;
+        }
+        h3{
+            padding: 0px 0px 5px;
+            font-size: 1rem;
+        }
+        .text-flyer{
+            padding: 5px 20px 0px;
+            font-size: 0.6rem;
+        }
+        a{
+            margin:0px;
+            padding: 5px 30px;
+            font-size: 0.66rem;
+        }
+        .img-flyer3{
+            margin-top: 20px;
+            width:160px;
+            height: 90px;
+        }
+    }
+    .flyer4{
+        margin: 10px;
+        padding: 10px;
+        height: 60vh;
+        .contenido-flyer4{
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .row{
+            flex-direction: column;
+        }
+        .text-introduction{
+            padding: 10px 10px 0px;
+            font-size: 0.66rem;
+        }
+        .col{
+            text-align: center;
+        }
+        h3{
+            padding: 0px 0px 5px;
+            font-size: 1rem;
+            text-align: center;
+            width: 90%;
+        }
+        .text-flyer{
+            padding: 5px 20px 0px;
+            font-size: 0.6rem;
+            text-align: center;
+        }
+        a{
+            margin:0px;
+            padding: 5px 30px;
+            font-size: 0.66rem;
+        }
+        .img-flyer4{
+            margin-top: 0px;
+            width:250px;
+            height: 100px;
+        }
+    }
+    
     
     /*Pagos*/
     .section-planes{
@@ -742,7 +855,7 @@ main{
     .title-planes{
         padding: 10px;
         margin:10px 0px 0px;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .contenedor-pagos{
         display: flex;
@@ -751,33 +864,35 @@ main{
     .card-pagos{
         height: 90vh;
         width: 500px;
-        margin: 15px;
+        margin: 10px;
+
         h3{
-            font-size: rem;
+            font-size: 0.9rem;
         }
         .contenido{
-            padding: 10px
+            padding: 20px;
         }
         .save{
-            padding: 2px 8px;
-            font-size: 0.66rem;
+            padding: 2px 20px;
+            font-size: 0.9rem;
         }
         .month{
-            font-size: 0.66rem;
+            font-size: 1rem;
         }
         .precio{
-            font-size: 2rem;
+            font-size: 2.8rem;
         }
         li{
             padding:5px;
-            font-size: 0.66rem;
+            font-size: 0.9rem;
         }
         .btn-precio{
-            font-size: 0.66rem;
+            font-size: 0.8rem;
             padding: 4px 30px;
+            margin: 0px;
         }
         .fa-check-circle{
-            font-size: 0.66rem;
+            font-size: 0.9rem;
         }
         
     }
@@ -789,7 +904,7 @@ main{
     }
     .title-users{
         padding: 10px ;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .contenedor-clientes{
         display: flex;
@@ -799,12 +914,12 @@ main{
         flex-direction: column;
     }
     .cita{
-        width:80px;
-        height: 80px;
+        width:60px;
+        height: 60px;
         padding:  10px 10px 0px;
     }
     .clientes-opinion{
-        height: 70vh;
+        height: 60vh;
         width: 300px;
         margin: 10px;
      
@@ -842,27 +957,36 @@ main{
             .pais{
                 width:550px;
                 margin: 8px;
+                font-size: 0.66rem;
                 h5{
                     font-size: 0.66rem;
+                }
+                .logo-pais{
+                    width: 30px;
+                    height: 30px;
                 }
             }
         }
         .logo-footer{
-            width:80px;
-            height: 20px;
-            margin: 10px;
-            padding-right: 10px;
+            width:0px;
+            height: 0px;
+            margin: 0px;
+            padding: 0px;
         }
         .footer-nav{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
             margin-left: 0px;
             padding-left: 0px;
+            padding-right: 10px ;
         }
         .nav-link{
-            padding: 4px;
-            font-size: 0.66rem;
+            padding: 2px;
+            font-size: 0.6rem;
         }
         .redes{
-            padding:12px;
+            padding:10px;
             margin-top: 5px;
             margin:10px;
             .fa-brands{
