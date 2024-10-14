@@ -627,7 +627,7 @@ main{
 @media screen and (max-width: 767px){
     .portada{
         margin-top: 10px;
-        height: 45vh;
+        height: 55vh;
             h1{
                 width: 100%;
                 padding: 10px;
@@ -690,7 +690,7 @@ main{
     }}
     /*FLYER*/
     .flyer1{
-        height: 220vh;
+        height: 200vh;
         margin: 10px;
         padding: 10px;
         .title{
