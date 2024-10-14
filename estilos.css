@@ -627,7 +627,7 @@ main{
 @media screen  and (max-width: 767px){
     .portada{
         margin-top: 10px;
-        height: 70vh;
+        height: 50vh;
             h1{
                 width: 100%;
                 padding: 10px;
@@ -706,7 +706,7 @@ main{
             align-items: center;
             justify-content: space-evenly;
             padding: 0px;
-            height: 35vh;
+            height: 30vh;
         
         .img-servicio{
             width: 50px;
@@ -850,7 +850,7 @@ main{
     
     /*Pagos*/
     .section-planes{
-        padding: 5px;
+        padding: 20px 0px;
     }
     .title-planes{
         padding: 10px;
@@ -880,7 +880,7 @@ main{
             font-size: 1rem;
         }
         .precio{
-            font-size: 2.8rem;
+            font-size: 2.5rem;
         }
         li{
             padding:5px;
@@ -919,7 +919,7 @@ main{
         padding:  10px 10px 0px;
     }
     .clientes-opinion{
-        height: 45vh;
+        height: 38vh;
         width: 300px;
         margin: 10px;
      
