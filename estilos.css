@@ -628,6 +628,7 @@ main{
     .portada{
         margin-top: 10px;
         height: 55vh;
+        padding: 20px;
             h1{
                 width: 100%;
                 padding: 10px;
@@ -668,6 +669,7 @@ main{
     
     /*INFO-CARDS*/
     .cards-info{
+        padding-bottom: 20px;
     .card-info{
         width:400px;
         height: 120px;
