@@ -625,6 +625,7 @@ main{
 
 
 @media screen and (max-width: 767px){
+
     .portada{
         margin-top: 10px;
         height: 55vh;
@@ -996,3 +997,380 @@ main{
             }
         }
     }}
+
+@media screen and (min-width: 767px) and (max-width:1023px){
+    
+    .portada{
+        margin-top: 10px;
+        height: 50vh;
+        padding: 20px;
+            h1{
+                width: 100%;
+                padding: 10px;
+                font-size: 2.5rem;
+            }
+            p{
+                padding-bottom: 5px;
+                color:white;
+                width: 90%;
+                font-size: 1rem;
+            }
+            a{
+                font-size: 0.9rem;
+                padding: 6px 30px;
+            }
+        }
+    .navbar{
+        height:12vh;
+        margin: 10px;
+        border-radius: 50px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        
+        .logo{
+            padding: 5px;
+            width:100px;
+            height: 40px;
+        }   
+    .nav-link{
+        font-size: 1rem;
+        padding: 5px;
+    }
+    .signup{
+        padding: 2px 8px;
+    }
+    }
+    
+    /*INFO-CARDS*/
+    .cards-info{
+        padding-bottom: 20px;
+    .card-info{
+        width:400px;
+        height: 140px;
+        padding: 10px;
+        margin:5px;
+        margin-top: 0px;
+        h3{
+            font-size: 2rem;
+            padding: 2px;
+            .icon-cards{
+                margin-left: 2px;
+                width: 25px;
+                height: 25px;
+            }
+        }
+        p{
+            padding:0px;
+            font-size: 1rem;
+        }
+    }}
+    /*FLYER*/
+    .flyer1{
+        height: 115vh;
+        margin: 10px;
+        padding: 10px;
+        .title{
+            margin-top: 10px;
+            padding: 5px;
+            font-size: 1.5rem;
+            padding-bottom: 40px;
+        }
+    .cards-services{
+        margin: 0px;
+
+        .card-service{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            padding: 0px;
+            height: 30vh;
+        
+        .img-servicio{
+            width: 70px;
+            height:70px;
+            padding-bottom: 0px;
+        }
+        .title-servicios{
+            text-align: center;
+            font-size: 1.2rem;
+            padding:0px;
+        }
+        .text-servicios{
+            text-align: center;
+            font-size: 0.9rem;
+            padding: 0px 4px;
+            width:100%;
+        }
+        .btn-servicios{
+            font-size: 0.6rem;
+            width:40%;
+            padding:4px 20px;
+            margin: 0px;
+        } 
+    }}}
+    
+    .flyer2{
+        margin: 10px;
+        padding: 10px;
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .col{
+            text-align: center;
+        }
+        h3{
+            padding: 10px;
+            font-size: 1.5rem;
+        }
+        .text-flyer{
+            color:white;
+            padding: 10px;
+            font-size: 0.9rem;
+        }
+        .img-flyer{
+            width:300px;
+            height: 200px;
+        }
+        .flyer{
+            .img-clientes{
+                max-width: 80px;
+                aspect-ratio: 4/3;
+                object-fit: contain;
+                padding: 0px 10px;
+            }
+        } 
+    }
+    .flyer3{
+        margin: 10px;
+        padding: 10px;
+        height: 35vh;
+        .contenido-flyer3{
+            padding: 0px;
+        }
+        .row{
+            display: flex;
+            flex-direction: column;
+        }
+        .text-introduction{
+            padding: 10px 10px 0px;
+            font-size: 0.9rem;
+        }
+        .col{
+            text-align: center;
+        }
+        h3{
+            padding: 0px 0px 5px;
+            font-size: 1.5rem;
+        }
+        .text-flyer{
+            padding: 5px 20px 0px;
+            font-size: 0.9rem;
+            width: 90%;
+        }
+        a{
+            margin:0px;
+            padding: 5px 30px;
+            font-size: 0.66rem;
+        }
+        .img-flyer3{
+            margin-top: 20px;
+            width:160px;
+            height: 90px;
+        }
+    }
+    .flyer4{
+        margin: 10px;
+        padding: 10px;
+        height: 35vh;
+        .contenido-flyer4{
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .row{
+            flex-direction: column;
+        }
+        .text-introduction{
+            padding: 10px 10px 0px;
+            font-size: 0.9rem;
+        }
+        .col{
+            text-align: center;
+        }
+        h3{
+            padding: 0px 0px 5px;
+            font-size: 1.5rem;
+            text-align: center;
+            width: 100%;
+        }
+        .text-flyer{
+            padding: 5px 20px 0px;
+            font-size: 0.9rem;
+            width: 90%;
+            text-align: center;
+        }
+        a{
+            margin:0px;
+            padding: 5px 30px;
+            font-size: 0.66rem;
+        }
+        .img-flyer4{
+            margin-top: 0px;
+            height: 120px;
+        }
+    }
+    
+    
+    /*Pagos*/
+    .section-planes{
+        padding: 20px 0px;
+    }
+    .title-planes{
+        padding: 10px;
+        margin:10px 0px 0px;
+        font-size: 2rem;
+    }
+    .contenedor-pagos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    .card-pagos{
+        height: 48vh;
+        width: 500px;
+        margin: 10px;
+
+        h3{
+            font-size: 0.9rem;
+        }
+        .contenido{
+            padding: 20px;
+        }
+        .save{
+            padding: 2px 20px;
+            font-size: 0.9rem;
+        }
+        .month{
+            font-size: 1rem;
+        }
+        .precio{
+            font-size: 3rem;
+        }
+        li{
+            padding:5px;
+            font-size: 1rem;
+        }
+        .btn-precio{
+            font-size: 1rem;
+            padding: 4px 30px;
+            margin: 0px;
+        }
+        .fa-check-circle{
+            font-size: 1rem;
+        }
+        
+    }
+    }
+    
+    /*CLIENTES*/
+    .section-users{
+        margin: 50px;
+    }
+    .title-users{
+        padding: 10px ;
+        font-size: 2rem;
+    }
+    .contenedor-clientes{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .cita{
+        width:60px;
+        height: 60px;
+        padding:  10px 10px 0px;
+    }
+    .clientes-opinion{
+        height: 30vh;
+        width: 300px;
+        margin: 10px;
+     
+        .opinion{
+            padding: 0px 10px;
+            font-size: 0.6rem;
+        }
+    }
+    .empresa-cliente{
+        padding-top: 20px;
+        .img-empresa{
+            width: 40px;
+            height: 40px;
+        }
+        .contenido-empresa{
+            padding-left: 10px;
+        }
+        h4{
+            font-size: 0.96rem;
+        }
+        p{
+            font-size: 0.66rem;
+        }
+    }
+    /*FOOTER*/
+    .footer{
+        height: 40vh;
+        margin: 10px;
+        padding: 20px 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .contenido-paises{
+            padding-top: 20px;
+            .pais{
+                margin: 8px;
+                font-size: 0.9rem;
+                h5{
+                    font-size: 1rem;
+                }
+                .logo-pais{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+        .logo-footer{
+            width:0px;
+            height: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .footer-nav{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            margin-left: 0px;
+            padding-left: 0px;
+            padding-right: 10px ;
+        }
+        .nav-link{
+            padding: 5px;
+            font-size: 1rem;
+        }
+        .redes{
+            padding:10px;
+            margin-top: 5px;
+            margin:10px;
+            .fa-brands{
+                font-size: 1rem;
+            }
+        }
+    }}
+
+
