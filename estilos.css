@@ -624,10 +624,10 @@ main{
 }
 
 
-@media screen  and (max-width: 767px){
+@media screen and (max-width: 767px){
     .portada{
         margin-top: 10px;
-        height: 50vh;
+        height: 30vh;
             h1{
                 width: 100%;
                 padding: 10px;
@@ -673,6 +673,7 @@ main{
         height: 120px;
         padding: 10px;
         margin:5px;
+        margin-top: 0px;
         h3{
             font-size: 1.5rem;
             padding: 2px;
